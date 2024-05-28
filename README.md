@@ -83,6 +83,6 @@ python media_control.py
 
 For a visual demonstration of this project, please refer to the video linked below:
 
-[Project Video Demonstration](https://youtube.com/shorts/tW3jClIxz8g?feature=share)
+[Project Video Demonstration](https://youtu.be/tW3jClIxz8g)
 
 [![Project Video Demonstration](https://img.youtube.com/vi/tW3jClIxz8g/0.jpg)](https://www.youtube.com/watch?v=tW3jClIxz8g)
