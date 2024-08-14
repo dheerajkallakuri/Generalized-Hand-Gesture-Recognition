@@ -24,7 +24,6 @@ def count_fingers(lst):
     if (lst.landmark[5].x*100 - lst.landmark[4].x*100) > 6:
         cnt += 1
 
-
     return cnt 
 
 cap = cv2.VideoCapture(0)
@@ -59,8 +58,6 @@ while True:
     frm = cv2.flip(frm, 1)
 
     res = hand_obj.process(cv2.cvtColor(frm, cv2.COLOR_BGR2RGB))
-
-    
 
     if res.multi_hand_landmarks:
 
@@ -119,9 +116,6 @@ while True:
 
                 prev = cnt
                 start_init = False
-
-
-        
 
 
         drawing.draw_landmarks(frm, hand_keyPoints, hands.HAND_CONNECTIONS)
